@@ -1,6 +1,6 @@
 "use client";
 
-// Import using the correct export name
+// Fix import to use the correct exported name from constants
 import { TOP_MOMENTS, LOVER_NAME } from "./constants";
 
 export const generatePDFContent = () => {
